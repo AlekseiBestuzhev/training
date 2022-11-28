@@ -1,10 +1,32 @@
-h1 {
-	font-size: 35px;
-	color: #333333;
-	margin: 80px 0px 30px 50px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;@400;700&display=swap');
+body {
+	font-family: Roboto;
 }
-p {
+.container {
+padding: 50px;
+}
+.center {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.main-title {
+	font-size: 55px;
+	color: #333333;
+	margin: 0px 0px 0px 0px;
+}
+.sub-main-title {
 	font-size: 25px;
 	font-style: italic;
-	margin-left: 50px;
+}
+.button {
+	padding: 15px;
+	background-color: rgb(183, 34, 34);
+	color: #fff;
+	font-size: 25px;
+	font-weight: 300;
+	letter-spacing: 3px;
+	border: 0px;
+	border-radius: 5px;
+	cursor: pointer;
 }
