@@ -19,6 +19,37 @@ align-items: center;
 	font-size: 25px;
 	font-style: italic;
 }
+.text-info {
+	display: flex;
+	justify-content: space-between;
+}
+.block-text {
+	display: flex;
+	flex-direction: column;
+}
+.block-info {
+	display: flex;
+	flex: 0 1 300px;
+	justify-content: space-between;
+}
+.block-score, .block-hits {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.score {
+	font-size: 30px;
+}
+.points{
+	display: flex;
+}
+.hit {
+	font-size: 30px;
+	color: #757575;
+}
+.hit:not(:last-child){
+	margin-right: 10px;
+}
 .button {
 	padding: 15px;
 	background-color: rgb(183, 34, 34);
@@ -29,4 +60,8 @@ align-items: center;
 	border: 0px;
 	border-radius: 5px;
 	cursor: pointer;
+	transition: 0.6s;
+}
+.button:hover {
+	background-color: rgb(224, 74, 74);
 }
