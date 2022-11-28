@@ -26,3 +26,5 @@ while (isSink == false) {
 		}
 	}
 }
+const stat = 'You took ' + guesses + ' guesses to sink the battleship, which means your shooting accuransy was ' + (3 / guesses);
+alert(stat);
