@@ -15,12 +15,20 @@ document.querySelector('.button').onclick = () => {
 		}
 		else {
 			guesses = guesses + 1;
+			document.querySelector('.score').innerHTML = guesses;
 			if (guess == location1 || guess == location2 || guess == location3) {
 				alert('HIT!');
 				hits = hits + 1;
 				if (hits == 3) {
+					document.querySelector('#three').style.color = 'red';
 					isSink = true;
 					alert('You sank my battleship');
+				}
+				else if (hits == 2) {
+					document.querySelector('#two').style.color = 'red';
+				}
+				else {
+					document.querySelector('#one').style.color = 'red';
 				}
 			}
 			else {
@@ -29,5 +37,5 @@ document.querySelector('.button').onclick = () => {
 		}
 	}
 	const stat = 'You took ' + guesses + ' guesses to sink the battleship, which means your shooting accuransy was ' + (3 / guesses);
-	alert(stat);
+	document.querySelector('.status').innerHTML = stat;
 }
