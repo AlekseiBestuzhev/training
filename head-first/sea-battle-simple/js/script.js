@@ -6,7 +6,7 @@ const location3 = location2 + 1;
 let guess;
 let guesses = 0;
 let hits = 0;
-document.querySelector('.button').onclick = myFunc;
+document.querySelector('.aim').onclick = myFunc;
 function myFunc() {
 	guess = prompt('Ready, aim, fire! (enter a number 0-6)');
 	if (guess < 0 || guess > 6) {
@@ -32,10 +32,14 @@ function myFunc() {
 	else if (hits == 3) {
 		document.querySelector('#three').style.color = 'red';
 		alert('You sank my battleship');
-		const stat = 'You took ' + guesses + ' guesses to sink the battleship, which means your shooting accuransy was ' + (3 / guesses);
+		const stat = 'You took ' + guesses + ' guesses to sink the battleship, which means your shooting accuransy was ' + (300 / guesses) + '%';
 		document.querySelector('.status').innerHTML = stat;
-		setTimeout(function () {
-			location.reload();
-		}, 5000);
+		document.querySelector('.reset').style.display = 'block';
+		document.querySelector('.aim').style.display = 'none';
 	}
 }
+document.querySelector('.reset').onclick = resFunc;
+function resFunc() {
+	location.reload();
+}
+
