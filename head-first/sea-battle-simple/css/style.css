@@ -1,55 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;@400;700&display=swap');
+
 body {
 	font-family: Roboto;
 }
+
 .container {
-padding: 50px;
+padding: 50px 150px;
 }
+
 .center {
 display: flex;
 flex-direction: column;
 align-items: center;
 }
+
 .main-title {
 	font-size: 55px;
 	color: #333333;
 	margin: 0px 0px 0px 0px;
 }
+
 .sub-main-title {
 	font-size: 25px;
 	font-style: italic;
 }
+
 .text-info {
 	display: flex;
 	justify-content: space-between;
 }
+
 .block-text {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	font-size: 20px;
 }
+
 .block-info {
 	display: flex;
 	flex: 0 1 300px;
 	justify-content: space-between;
 }
+
 .block-score, .block-hits {
 display: flex;
 flex-direction: column;
 align-items: center;
 }
-.score {
-	font-size: 30px;
+
+.score, .hit {
+	font-size: 45px;
 }
+
 .points{
 	display: flex;
 }
+
 .hit {
-	font-size: 30px;
 	color: #757575;
 }
+
 .hit:not(:last-child){
 	margin-right: 10px;
 }
+
 .button {
 	padding: 15px;
 	background-color: rgb(183, 34, 34);
@@ -61,10 +76,17 @@ align-items: center;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: 0.6s;
+	margin-bottom: 30px;
 }
+
 .button:hover {
 	background-color: rgb(224, 74, 74);
 }
+
 .reset {
 	display: none;
+}
+
+.status {
+	font-size: 20px;
 }
