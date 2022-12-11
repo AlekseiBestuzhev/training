@@ -1,1 +1,44 @@
 @import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500;700;900&display=swap');
+
+[class*='__container'] {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.header{
+	color: #FFFFFF;
+}
+
+.main{
+flex: 1 0 auto;
+}
+
+.copyrights {
+	background-color: #5D62B5;
+	padding: 21px 0;
+	font-size: 12px;
+	line-height: 18px;
+	color: #FFFFFF;
+}
+
+.copyrights__row {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.copyrights__text:not(:last-child) {
+	padding-right: 15px;
+}
+
+.coperights__link {
+	color: #FFFFFF;
+	font-weight: 700;
+}

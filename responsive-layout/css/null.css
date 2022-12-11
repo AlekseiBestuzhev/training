@@ -36,7 +36,14 @@ html {
 	font-size: 16px; /* по умолчанию */
 }
 body {
-	line-height: 1;
+	background-color: #F5F5F5;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
 }
 .wrapper {
 	min-height: 100%;
