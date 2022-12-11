@@ -63,6 +63,7 @@
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 20px;
+	column-gap: 10px;
 }
 
 .hours__icon {
@@ -84,6 +85,7 @@
 	font-weight: 700;
 	font-size: 12px;
 	line-height: 20px;
+	column-gap: 10px;
 }
 
 .phone__icon {
@@ -99,10 +101,8 @@
 	flex: 0 0 auto;
 }
 
-@media (max-width: 565px) {
-	.header__container {
-		justify-content: flex-start;
-	}
+@media (max-width: 585px) {
+
 }
 
 /* todo______________________________MAIN______________________________ */
@@ -121,11 +121,13 @@ position: relative;
 .search-bar__body {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	background-color: #FFFFFF;
 	border-radius: 10px;
 	padding: 18px 40px;
 	position: relative;
 	z-index: 1;
+	height: 60px;
 }
 
 .search-bar__menu {
@@ -139,7 +141,6 @@ position: relative;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
-	align-items: center;
 }
 
 .menu__item {
@@ -155,19 +156,39 @@ position: relative;
 	vertical-align: middle;
 }
 
+.search-bar__search{
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+	column-gap: 30px;
+}
+
 .search-bar__form {
 }
+
 .form {
+	display: flex;
+	align-items: center;
+	column-gap: 30px;
 }
+
 .form__inp {
+	font-size: 14px;
+	padding: 5px;
+	max-width: 300px;
+}
+.form__btn-label {
+	display: flex;
+	align-items: center;
 }
 .form__btn {
+	width: 24px;
+	height: 24px;
+	background: url('../img/search-bar/search.svg') 50%/cover no-repeat;
 }
 .search-bar__cart {
-	background: url('../img/search-bar/shopping-cart.svg') 50%/cover no-repeat;
 	flex: 0 0 24px;
 	height: 24px;
-	margin-left: auto;
 	position: relative;
 }
 
@@ -188,6 +209,7 @@ position: relative;
 	right: -8px;
 }
 
+
 /* ? ____________________BLOCK-ONE____________________*/
 
 .block-one {
@@ -195,6 +217,21 @@ position: relative;
 	width: 100%;
 	height: 100vh;
 	background: url('../img/block-one/large-img-bcg.jpg') 50%/cover no-repeat;
+}
+
+@media (max-width: 850px) {
+	.header__container {
+		justify-content: flex-start;
+	}
+	.header__blocks {
+		padding-right: 90px;
+	}
+	.search-bar {
+		display: none;
+	}
+	.block-one {
+		margin-top: 0px;
+	}
 }
 
 /* todo______________________________FOOTER______________________________ */
