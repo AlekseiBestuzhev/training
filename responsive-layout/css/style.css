@@ -12,13 +12,31 @@
 	flex-direction: column;
 }
 
+.button {
+	background: #F2726F;
+	border-radius: 8px;
+	padding: 13px 34px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 12px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*todo______________________________HEADER______________________________ */
+
 .header{
 	color: #FFFFFF;
 }
 
+/* todo______________________________MAIN______________________________ */
+
 .main{
 flex: 1 0 auto;
 }
+
+/* todo______________________________FOOTER______________________________ */
 
 .copyrights {
 	background-color: #5D62B5;
