@@ -51,12 +51,12 @@
 .header{
 	width: 100%;
 	color: #FFFFFF;
-	padding: 26px 0 28px;
+	padding: 26px 0 0;
 	position: absolute;
 	z-index: 5;
 }
 
-.header__container {
+.top {
 	display: flex;
 	justify-content: flex-end;
 	gap: 30px;
@@ -83,13 +83,13 @@
 	border-top: 0px;
 }
 
-.header__blocks {
+.top__blocks {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
 }
 
-.header__logo {
+.top__logo {
 	margin-right: auto;
 	flex: 0 0 auto;
 }
@@ -134,7 +134,7 @@
 	flex-direction: column;
 }
 
-.header__button {
+.top__button {
 	flex: 0 0 auto;
 }
 
@@ -283,10 +283,10 @@ position: relative;
 /* todo______________________________BRAKE-POINTS______________________________ */
 
 @media (max-width: 860px) {
-	.header__container {
+	.top {
 		justify-content: flex-start;
 	}
-	.header__blocks {
+	.top {
 		padding-right: 90px;
 	}
 	.search-bar {
