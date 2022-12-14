@@ -522,11 +522,14 @@
 	}
 	.block-two__img img {
 		margin-bottom: -50px;
+		border-radius: 20px;
 	}
 	.block-two {
 		padding-bottom: 50px;
 	}
-	
+	.title-block__title {
+		font-size: 30px;
+	}
 }
 
 @media (max-height: 560px) {
