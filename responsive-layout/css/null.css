@@ -32,9 +32,6 @@ html,
 body {
 	height: 100%;
 }
-html {
-	font-size: 16px; /* по умолчанию */
-}
 body {
 	background-color: #F5F5F5;
 	font-family: 'Roboto';
