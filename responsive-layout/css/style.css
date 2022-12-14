@@ -321,7 +321,7 @@
 
 .title-box__sub-title::before {
 	content: '';
-	height: 16px;
+	height: 24px;
 	width: 17px;
 	background: url('../img/title-icon-white.svg') 50% / cover no-repeat;
 	display: inline-block;
