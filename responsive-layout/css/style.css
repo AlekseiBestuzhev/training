@@ -81,7 +81,7 @@
 
 /* ?____________________TOP____________________ */
 
-.header{
+.header {
 	width: 100%;
 	color: #FFFFFF;
 	position: absolute;
@@ -372,6 +372,7 @@
 @media (max-width: 767.98px) or (max-height: 460px) {
 	.top {
 		padding-right: 90px;
+		row-gap: 20px;
 	}
 	.burger-button {
 		display: flex;
@@ -388,20 +389,11 @@
 		transition: 1s;
 		overflow: auto;
 	}
-	.search-bar::before {
-		content: '';
-		width: 100%;
-		height: 130px;
-		background-color: #5D62B5;
-		position: fixed;
-		z-index: 4;
-		top: 0;
-		left: -10000;
-	}
 	.search-bar__body {
 		flex-direction: column-reverse;
 		padding: 18px 20px;
 	}
+	
 	.menu {
 		position: absolute;
 		top: 100px;
@@ -411,6 +403,7 @@
 		align-items: center;
 		width: calc(100vw - 30px);
 		font-size: 25px;
+		padding-bottom: 40px;
 	}
 	.menu__item {
 		color: #FFFFFF;
