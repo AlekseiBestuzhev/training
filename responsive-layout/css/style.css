@@ -425,28 +425,43 @@
 /* ? ____________________PLAY-DOG____________________*/
 
 .main__play-dog {
+	margin-bottom: 110px;
 }
+
 .play-dog {
 	background-color: #29C3BE;
 	position: relative;
 	overflow: hidden;
 }
+
 .play-dog__container {
 }
+
 .play-dog__pup {
 	max-width: 744px;
 	height: auto;
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	z-index: 6;
 }
-.image {
+
+.play-dog__ball {
+	max-width: 744px;
+	height: auto;
+	position: absolute;
+	top: 0;
+	right: 70px;
 }
+
 .play-dog__body {
 	max-width: 414px;
 	margin-left: auto;
 	padding: 112px 0px 169px 0px;
+	position: relative;
+	z-index: 5;
 }
+
 .play-dog__title {
 	font-weight: 900;
 	font-size: 36px;
@@ -454,6 +469,7 @@
 	color: #FFFFFF;
 	margin-bottom: 42px;
 }
+
 .play-dog__button {
 	display: inline-block;
 }
@@ -484,6 +500,12 @@
 }
 
 /* todo______________________________BRAKE-POINTS______________________________ */
+
+@media (max-width: 1280px) {
+	.play-dog__pup {
+		left: -300px;
+	}
+}
 @media (max-width: 1050px) {
 	.block-two__spot {
 		display: none;
@@ -503,6 +525,20 @@
 	.block-two__dots {
 		top: -170px;
 		width: 150px;
+	}
+	.play-dog__pup {
+		left: 0;
+		max-width: 60vw;
+	}
+	.play-dog__body {
+		max-width: 414px;
+		margin: 0 auto;
+		padding: 112px 0px 50vw 0px;
+	}
+	.play-dog__ball {
+		top: auto;
+		bottom: 0;
+		max-width: 60vw;
 	}
 }
 
