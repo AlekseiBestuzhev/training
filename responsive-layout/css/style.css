@@ -382,8 +382,13 @@
 .block-three__title-box {
 }
 .title-box__sub-title_for-white {
+	color: #5D62B5;
+}
+.title-box__sub-title_for-white::before {
+	background: url('../img/title-icon-blue.svg') 50% / cover no-repeat;
 }
 .title-block__title_for-white {
+	color: #000000;
 }
 .block-three__items {
 }
