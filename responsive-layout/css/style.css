@@ -377,12 +377,6 @@
 	margin-bottom: 100px;
 }
 
-.block-three {
-}
-
-.block-three__container {
-}
-
 .block-three__title-box {
 	margin-bottom: 68px;
 }
@@ -417,9 +411,6 @@
 	height: 63px;
 }
 
-.item__column {
-}
-
 .item__title {
 	font-weight: 900;
 	font-size: 19px;
@@ -429,6 +420,42 @@
 }
 
 .item__text {
+}
+
+/* ? ____________________PLAY-DOG____________________*/
+
+.main__play-dog {
+}
+.play-dog {
+	background-color: #29C3BE;
+	position: relative;
+	overflow: hidden;
+}
+.play-dog__container {
+}
+.play-dog__pup {
+	max-width: 744px;
+	height: auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.image {
+}
+.play-dog__body {
+	max-width: 414px;
+	margin-left: auto;
+	padding: 112px 0px 169px 0px;
+}
+.play-dog__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin-bottom: 42px;
+}
+.play-dog__button {
+	display: inline-block;
 }
 
 /* todo______________________________FOOTER______________________________ */
