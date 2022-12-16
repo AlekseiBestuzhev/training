@@ -474,6 +474,23 @@
 	display: inline-block;
 }
 
+.play-dog__circles {
+	max-width: 201px;
+	height: auto;
+	position: absolute;
+	bottom: 60px;
+	left: 0;
+}
+
+.play-dog__blob {
+	max-width: 366px;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	z-index: 4;
+}
+
 /* todo______________________________FOOTER______________________________ */
 
 .copyrights {
@@ -505,7 +522,11 @@
 	.play-dog__pup {
 		left: -300px;
 	}
+	.play-dog__circles {
+		display: none;
+	}
 }
+
 @media (max-width: 1050px) {
 	.block-two__spot {
 		display: none;
@@ -528,7 +549,8 @@
 	}
 	.play-dog__pup {
 		left: 0;
-		max-width: 60vw;
+		transform: translateX(-30%);
+		max-width: 70vw;
 	}
 	.play-dog__body {
 		max-width: 414px;
