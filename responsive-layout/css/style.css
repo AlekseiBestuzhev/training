@@ -587,12 +587,6 @@
 	}
 }
 
-@media (max-width: 674px) {
-	.top__blocks {
-		display: none;
-	}
-}
-
 @media (max-width: 767.98px) {
 	.top {
 		padding-right: 90px;
@@ -679,6 +673,16 @@
 	}
 	.item__title {
 		margin-bottom: 10px;
+	}
+}
+
+
+@media (max-width: 674px) {
+	.top__blocks {
+		display: none;
+	}
+	.play-dog__body {
+		padding: 60px 0px 50vw 0px;
 	}
 }
 
