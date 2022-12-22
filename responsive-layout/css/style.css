@@ -486,12 +486,16 @@
 
 .our-services {
 	padding: 110px 0;
+	position: relative;
+	overflow: hidden;
 }
 
 .our-services__container {
 	display: flex;
 	flex-direction: column;
 	row-gap: 70px;
+	position: relative;
+	z-index: 5;
 }
 
 .cards {
@@ -546,6 +550,12 @@
 align-self: center;
 }
 
+.our-services__blob {
+	max-width: 40vw;
+	position: absolute;
+	top: -480px;
+	right: 0;
+}
 
 /* todo______________________________FOOTER______________________________ */
 
@@ -589,6 +599,9 @@ align-self: center;
 			}
 	.block-two__dots {
 		right: 0;
+	}
+	.our-services__blob {
+		top: 0;
 	}
 }
 
