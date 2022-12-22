@@ -419,14 +419,7 @@
 	margin-bottom: 20px;
 }
 
-.item__text {
-}
-
 /* ? ____________________PLAY-DOG____________________*/
-
-.main__play-dog {
-	margin-bottom: 110px;
-}
 
 .play-dog {
 	background-color: #29C3BE;
@@ -434,8 +427,6 @@
 	overflow: hidden;
 }
 
-.play-dog__container {
-}
 
 .play-dog__pup {
 	max-width: 744px;
@@ -490,6 +481,31 @@
 	left: 0px;
 	z-index: 4;
 }
+
+/* ? ____________________PLAY-DOG____________________*/
+
+.our-services {
+	padding: 110px 0;
+}
+
+.our-services__title-box {
+}
+
+.our-services__cards {
+}
+.cards {
+}
+.cards__card {
+}
+.card {
+}
+.card__img-body {
+	width: 63px;
+	height: 63px;
+}
+.card__title {
+}
+
 
 /* todo______________________________FOOTER______________________________ */
 
@@ -675,7 +691,6 @@
 		margin-bottom: 10px;
 	}
 }
-
 
 @media (max-width: 674px) {
 	.top__blocks {
