@@ -482,10 +482,16 @@
 	z-index: 4;
 }
 
-/* ? ____________________PLAY-DOG____________________*/
+/* ? ____________________OUR-SERVICES____________________*/
 
 .our-services {
 	padding: 110px 0;
+}
+
+.our-services__container {
+	display: flex;
+	flex-direction: column;
+	row-gap: 70px;
 }
 
 .our-services__title-box {
@@ -493,17 +499,32 @@
 
 .our-services__cards {
 }
+
 .cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
 }
+
 .cards__card {
 }
+
 .card {
+	flex: 1 1 320px;
+	background: #FFFFFF;
+	border-radius: 20px;
+	min-width: 290px;
 }
+
 .card__img-body {
 	width: 63px;
 	height: 63px;
 }
 .card__title {
+}
+
+.our-services__button {
+align-self: center;
 }
 
 
