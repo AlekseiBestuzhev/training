@@ -565,6 +565,35 @@ align-self: center;
 	background: url('../img/block-maa/bcg-image.svg') 50%/cover no-repeat;
 }
 
+.main__block-maa {
+	margin-bottom: 110px;
+}
+
+.block-maa__container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.block-maa__form-block {
+}
+
+.block-maa__inform {
+	margin-left: auto;
+}
+
+.inform {
+}
+
+.inform__title {
+}
+
+.inform__amount {
+}
+
+.inform__text {
+}
+
 /* todo______________________________FOOTER______________________________ */
 
 .copyrights {
