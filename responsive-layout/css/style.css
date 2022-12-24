@@ -566,7 +566,7 @@ align-self: center;
 }
 
 .main__block-maa {
-	margin-bottom: 110px;
+	/* margin-bottom: 110px; */
 }
 
 .block-maa__container {
@@ -583,15 +583,35 @@ align-self: center;
 }
 
 .inform {
+	color: #FFFFFF;
+	text-align: center;
 }
 
 .inform__title {
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 36px;
+	max-width: 325px;
+}
+
+.inform__title:not(:last-child) {
+	margin-bottom: 46px;
 }
 
 .inform__amount {
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 56px;
+}
+
+.inform__amount:not(:last-child) {
+	margin-bottom: 46px;
 }
 
 .inform__text {
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
 }
 
 /* todo______________________________FOOTER______________________________ */
