@@ -557,6 +557,14 @@ align-self: center;
 	right: 0;
 }
 
+/* ? ____________________BLOCK-MAA____________________*/
+
+.block-maa {
+	width: 100%;
+	height: 100vh;
+	background: url('../img/block-maa/bcg-image.svg') 50%/cover no-repeat;
+}
+
 /* todo______________________________FOOTER______________________________ */
 
 .copyrights {
