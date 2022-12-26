@@ -606,7 +606,7 @@ align-self: center;
 }
 
 .blc-form__element {
-	flex: 0 1 224px;
+	flex: 1 0 224px;
 	padding: 17px 23px 15px;
 	border-radius: 10px;
 	border: 2px solid #FFFFFF;
@@ -623,6 +623,7 @@ align-self: center;
 }
 
 #service {
+	flex: 1 1 224px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 2;
@@ -885,6 +886,22 @@ textarea::placeholder {
 	}
 	.play-dog__body {
 		padding: 60px 0px 50vw 0px;
+	}
+}
+
+@media (max-width: 613.98px) {
+	#service {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 510px) {
+	.block-maa__form-block {
+		border-radius: 20px;
+		padding: 50px 20px;
+	}
+	.blc-form {
+		text-align: center;
 	}
 }
 
