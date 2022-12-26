@@ -575,6 +575,7 @@ align-self: center;
 	align-items: center;
 	flex-wrap: wrap;
 	row-gap: 50px;
+	justify-content: space-between;
 }
 
 .blc-form {
@@ -657,7 +658,7 @@ textarea::placeholder {
 }
 
 .block-maa__inform {
-	margin-left: auto;
+	padding-left: 20px;
 }
 
 .inform {
@@ -737,6 +738,15 @@ textarea::placeholder {
 	}
 	.our-services__blob {
 		top: 0;
+	}
+}
+
+@media (max-width: 959.98px) {
+	.block-maa {
+		padding: 70px 0;
+	}
+	.block-maa__container {
+		flex-direction: column-reverse;
 	}
 }
 
@@ -898,10 +908,13 @@ textarea::placeholder {
 @media (max-width: 510px) {
 	.block-maa__form-block {
 		border-radius: 20px;
-		padding: 50px 20px;
+		padding: 50px 15px;
 	}
 	.blc-form {
 		text-align: center;
+	}
+	.inform__amount {
+		font-size: 56px;
 	}
 }
 
