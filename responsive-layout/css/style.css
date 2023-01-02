@@ -566,7 +566,7 @@ align-self: center;
 }
 
 .main__block-maa {
-	margin-bottom: 110px;
+	margin-bottom: -80px;
 	position: relative;
 }
 
@@ -716,6 +716,7 @@ textarea::placeholder {
 /* ? ____________________GALLERY____________________*/
 
 .main__gallery {
+	position: relative;
 }
 
 .gallery {
