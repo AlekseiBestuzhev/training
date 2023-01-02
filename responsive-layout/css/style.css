@@ -731,13 +731,9 @@ textarea::placeholder {
 }
 
 .gallery__title-box {
+	margin-bottom: 55px;
 }
-.title-block {
-}
-.title-box__sub-title {
-}
-.title-block__title {
-}
+
 .gallery__items {
 }
 
