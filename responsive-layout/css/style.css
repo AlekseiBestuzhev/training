@@ -747,6 +747,16 @@ textarea::placeholder {
 	.play-dog__circles {
 		display: none;
 	}
+	.block-maa__blob {
+		display: none;
+	}
+	.block-maa__circles {
+		max-width: 150px;
+		bottom: auto;
+		top: -200px;
+		left: auto;
+		right: 20px;
+	}
 }
 
 @media (max-width: 1050px) {
@@ -907,6 +917,9 @@ textarea::placeholder {
 	}
 	.item__title {
 		margin-bottom: 10px;
+	}
+	.block-maa__circles {
+		display: none;
 	}
 }
 
