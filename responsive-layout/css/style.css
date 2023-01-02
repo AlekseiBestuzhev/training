@@ -566,7 +566,8 @@ align-self: center;
 }
 
 .main__block-maa {
-	/* margin-bottom: 110px; */
+	margin-bottom: 110px;
+	position: relative;
 }
 
 .block-maa__container {
@@ -576,11 +577,30 @@ align-self: center;
 	flex-wrap: wrap;
 	row-gap: 50px;
 	justify-content: space-between;
+	position: relative;
+}
+
+.block-maa__blob {
+	max-width: 860px;
+	position: absolute;
+	bottom: -150px;
+	left: -200px;
+	z-index: 2;
+}
+
+.block-maa__circles {
+	max-width: 335px;
+	position: absolute;
+	bottom: -40px;
+	left: -110px;
+	z-index: 1;
 }
 
 .blc-form {
 	flex: 0 1 585px;
 	text-align: right;
+	position: relative;
+	z-index: 3;
 }
 
 .block-maa-title {
