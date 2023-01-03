@@ -746,6 +746,18 @@ textarea::placeholder {
 }
 
 .gallery__item {
+	position: relative;
+}
+
+.gallery__label {
+	cursor: pointer;
+
+}
+.gallery__radio {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
 }
 
 /* todo______________________________FOOTER______________________________ */
