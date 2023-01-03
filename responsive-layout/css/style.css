@@ -743,6 +743,7 @@ textarea::placeholder {
 	color: #FFFFFF;
 	padding-bottom: 15px;
 	border-bottom: 1px solid #F5F5F5;
+	margin-bottom: 50px;
 }
 
 .gallery__item {
@@ -771,6 +772,8 @@ textarea::placeholder {
 	bottom: -20px;
 	left: 0;
 }
+
+
 
 /* todo______________________________FOOTER______________________________ */
 
