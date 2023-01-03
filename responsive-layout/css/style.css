@@ -740,6 +740,7 @@ textarea::placeholder {
 	display: flex;
 	flex-wrap: wrap;
 	column-gap: 30px;
+	row-gap: 50px;
 	justify-content: space-between;
 	color: #FFFFFF;
 	padding-bottom: 15px;
@@ -749,6 +750,7 @@ textarea::placeholder {
 
 .gallery__item {
 	position: relative;
+	flex: 0 1 139px;
 }
 
 .gallery__label {
@@ -1000,6 +1002,12 @@ textarea::placeholder {
 	}
 }
 
+@media (max-width: 705.98px) {
+	.gallery__items {
+		border-bottom: none;
+	}
+}
+
 @media (max-width: 674px) {
 	.top__blocks {
 		display: none;
@@ -1009,7 +1017,7 @@ textarea::placeholder {
 	}
 }
 
-@media (max-width: 613.98px) {
+@media (max-width: 614px) {
 	#service {
 		max-width: 100%;
 	}
@@ -1045,5 +1053,14 @@ textarea::placeholder {
 @media (max-height: 460px) {
 	.block-one {
 		height: calc(100vh + 100px);
+	}
+}
+
+@media (max-width: 367.98px) {
+	.gallery__items {
+		row-gap: 30px;
+	}
+	.gallery__radio:checked + .gallery__label::after {
+		bottom: -10px;
 	}
 }
