@@ -750,7 +750,6 @@ textarea::placeholder {
 
 .gallery__item {
 	position: relative;
-	flex: 0 1 139px;
 }
 
 .gallery__label {
@@ -1002,12 +1001,6 @@ textarea::placeholder {
 	}
 }
 
-@media (max-width: 705.98px) {
-	.gallery__items {
-		border-bottom: none;
-	}
-}
-
 @media (max-width: 674px) {
 	.top__blocks {
 		display: none;
@@ -1017,9 +1010,15 @@ textarea::placeholder {
 	}
 }
 
-@media (max-width: 614px) {
+@media (max-width: 614.98px) {
 	#service {
 		max-width: 100%;
+	}
+	.gallery__item {
+		flex: 0 1 139px;
+	}
+	.gallery__items {
+		border-bottom: none;
 	}
 }
 
