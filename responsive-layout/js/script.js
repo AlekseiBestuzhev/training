@@ -3,3 +3,8 @@ function showMenu() {
 	out.classList.toggle('show-menu');
 }
 document.querySelector('.burger-button').onclick = showMenu;
+
+function hideStreamIcon() {
+	const streamIcon = document.querySelector('.gallery__stream-icon');
+	streamIcon.style.display = 'none';
+}
