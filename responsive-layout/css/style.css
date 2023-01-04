@@ -648,9 +648,11 @@ align-self: center;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 2;
-	letter-spacing: 0.15px;
-	color: #FFFFFF;
 	max-width: 224px;
+}
+
+.blc-form__element > option:not(:first-child) {
+	color: #000000;
 }
 
 textarea::placeholder {
@@ -675,6 +677,7 @@ textarea::placeholder {
 	border: 2px solid #FFFFFF;
 	background-color: transparent;
 	border-radius: 10px;
+	color: #FFFFFF;
 }
 
 .block-maa__inform {
