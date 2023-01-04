@@ -778,12 +778,28 @@ textarea::placeholder {
 	left: 0;
 }
 
+.gallery__img-box {
+	position: relative;
+}
+
 .gallery__img {
 	box-shadow: 0px 10px 20px hsl(0deg 0% 0% / 70%);
 	margin-bottom: -120px;
 	border-radius: 40px;
 	width: 100%;
 }
+
+.gallery__stream-icon {
+	background-color: #F2726F;
+	color: #FFFFFF;
+	padding: 5px 30px;
+	border-radius: 5px;
+	display: inline-block;
+	filter: drop-shadow(0px 6px 12px rgba(38, 38, 38, 0.24)) drop-shadow(0px 12px 24px rgba(38, 38, 38, 0.2));
+	background: #62B58F;
+	border-radius: 50px;
+}
+
 
 /* todo______________________________FOOTER______________________________ */
 
