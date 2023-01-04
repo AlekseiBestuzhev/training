@@ -792,14 +792,24 @@ textarea::placeholder {
 .gallery__stream-icon {
 	background-color: #F2726F;
 	color: #FFFFFF;
-	padding: 5px 30px;
+	padding: 3px 10px;
 	border-radius: 5px;
 	display: inline-block;
 	filter: drop-shadow(0px 6px 12px rgba(38, 38, 38, 0.24)) drop-shadow(0px 12px 24px rgba(38, 38, 38, 0.2));
 	background: #62B58F;
 	border-radius: 50px;
+	text-align: center;
 }
 
+.gallery__stream-icon::before {
+content: '';
+display: inline-block;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background-color: #FFFFFF;
+margin-right: 10px;
+}
 
 /* todo______________________________FOOTER______________________________ */
 
