@@ -812,6 +812,13 @@ height: 12px;
 border-radius: 50%;
 background-color: #FFFFFF;
 margin-right: 10px;
+animation: flickering 2s linear 0s infinite;
+}
+
+@keyframes flickering {
+	50% {
+		opacity: 0;
+	}
 }
 
 /* todo______________________________FOOTER______________________________ */
