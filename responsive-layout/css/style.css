@@ -333,7 +333,7 @@
 	margin-bottom: 33px;
 }
 
-.title-block__title {
+.title-box__title {
 	max-width: 583px;
 	font-weight: 900;
 	font-size: 36px;
@@ -389,7 +389,7 @@
 	background: url('../img/title-icon-blue.svg') 50% / cover no-repeat;
 }
 
-.title-block__title_for-white {
+.title-box__title_for-white {
 	color: #000000;
 }
 
