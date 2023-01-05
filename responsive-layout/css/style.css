@@ -875,9 +875,6 @@ animation: flickering 2s linear 0s infinite;
 	padding-top: 50px;
 }
 
-.main__impact {
-}
-
 .impact__container {
 }
 
@@ -887,6 +884,7 @@ animation: flickering 2s linear 0s infinite;
 	align-items: flex-end;
 	position: relative;
 	row-gap: 30px;
+	margin-bottom: 85px;
 }
 
 .impact__blop {
