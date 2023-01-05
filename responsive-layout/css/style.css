@@ -885,7 +885,7 @@ animation: flickering 2s linear 0s infinite;
 	justify-content: space-between;
 	align-items: flex-end;
 }
-.block-two__title-box {
+.impact__title-box {
 	padding-right: 20px;
 	flex: 0 1 435px;
 }
