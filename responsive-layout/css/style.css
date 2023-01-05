@@ -867,6 +867,12 @@ animation: flickering 2s linear 0s infinite;
 	color: #F2726F;
 }
 
+/* ? ____________________BLOCK-MAA____________________*/
+
+.impact {
+	background-color: #29C3BE;
+}
+
 /* todo______________________________FOOTER______________________________ */
 
 .copyrights {
@@ -1066,7 +1072,7 @@ animation: flickering 2s linear 0s infinite;
 	.block-two {
 		padding-bottom: 50px;
 	}
-	.title-block__title {
+	.title-box__title {
 		font-size: 30px;
 	}
 	.block-three__title-box {
