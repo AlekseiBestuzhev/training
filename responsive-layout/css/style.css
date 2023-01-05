@@ -935,13 +935,15 @@ height: 76px;
 
 .itm__column {
 }
+
 .itm__count {
 	font-weight: 900;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.6;
 	color: #FFFFFF;
 	margin-bottom: 3px;
 }
+
 .itm__text {
 	font-weight: 700;
 	color: #5D62B5;
@@ -1197,9 +1199,11 @@ height: 76px;
 	}
 	.impact__header {
 		flex-wrap: wrap;
+		margin-bottom: 50px;
 	}
 	.impact__img {
 		margin-top: 0;
+		flex: 1 1 500px;
 	}
 }
 
@@ -1213,6 +1217,13 @@ height: 76px;
 	}
 	.inform__amount {
 		font-size: 56px;
+	}
+	.itm__img {
+		width: 60px;
+		height: 60px;
+	}
+	.itm__count {
+		font-size: 30px;
 	}
 }
 
