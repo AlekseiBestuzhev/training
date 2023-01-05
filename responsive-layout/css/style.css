@@ -820,20 +820,27 @@ animation: flickering 2s linear 0s infinite;
 
 .main__customers {
 }
+
 .customers {
 	padding: 120px 0;
 }
-.customers__container {
+
+.customers__items {
 	display: flex;
-	gap: 24px;
+	flex-wrap: wrap;
+	margin: 0 -12px;
+	row-gap: 24px;
 }
-.customers__title-box {
-	flex: 0 1 324px;
+
+.customers__item {
+	flex: 1 1 33.333%;
+	padding: 0 12px;
+	display: flex;
+	min-width: 280px;
 }
-.customers__review {
-	flex: 0 1 324px;
-}
+
 .review {
+	flex: 1 1 auto;
 	background: #FFFFFF;
 	border-radius: 20px;
 	display: flex;
@@ -841,15 +848,15 @@ animation: flickering 2s linear 0s infinite;
 	flex-direction: column;
 	row-gap: 20px;
 	padding: 50px 43px 40px;
-	max-width: 324px;
 }
 .review__text {
 	flex: 1 0 auto;
 }
 .review__person {
 	display: flex;
+	flex-wrap: wrap;
 	align-items: center;
-	column-gap: 17px;
+	gap: 17px;
 }
 
 .review__img {
@@ -955,6 +962,9 @@ animation: flickering 2s linear 0s infinite;
 		top: auto;
 		bottom: 0;
 		max-width: 60vw;
+	}
+	.customers__item:first-child {
+		flex: 1 0 100%;
 	}
 }
 
