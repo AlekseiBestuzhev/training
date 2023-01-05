@@ -912,6 +912,26 @@ animation: flickering 2s linear 0s infinite;
 	overflow: hidden;
 }
 
+.impact__items {
+}
+.impact__item {
+}
+.itm {
+	display: flex;
+	column-gap: 11px;
+}
+
+.itm__img {
+width: 76px;
+height: 76px;
+}
+
+.itm__column {
+}
+.itm__count {
+}
+.itm__text {
+}
 
 /* todo______________________________FOOTER______________________________ */
 
