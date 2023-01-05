@@ -867,11 +867,35 @@ animation: flickering 2s linear 0s infinite;
 	color: #F2726F;
 }
 
-/* ? ____________________BLOCK-MAA____________________*/
+/* ? ____________________impact____________________*/
 
 .impact {
 	background-color: #29C3BE;
 }
+
+.main__impact {
+}
+
+.impact__container {
+}
+.impact__header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.block-two__title-box {
+	padding-right: 20px;
+	max-width: 435px;
+}
+
+.impact__img {
+	max-width: 500px;
+	margin-top: -80px;
+	border-radius: 40px;
+	overflow: hidden;
+}
+
 
 /* todo______________________________FOOTER______________________________ */
 
