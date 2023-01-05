@@ -720,13 +720,7 @@ textarea::placeholder {
 
 .main__gallery {
 	position: relative;
-	margin-bottom: 150px;
-}
-
-.gallery {
-}
-
-.gallery__container {
+	margin-bottom: 120px;
 }
 
 .gallery__body {
@@ -820,6 +814,36 @@ animation: flickering 2s linear 0s infinite;
 	50% {
 		opacity: 0;
 	}
+}
+
+/* ? ____________________CUSTOMERS____________________*/
+
+.main__customers {
+}
+.customers {
+	padding: 120px 0;
+}
+.customers__container {
+	display: flex;
+	gap: 24;
+}
+.customers__title-box {
+	flex: 0 1 324px;
+}
+.customers__review {
+	flex: 0 1 324px;
+}
+.review {
+}
+.review__text {
+}
+.review__person {
+}
+.review__img {
+	height: 48px;
+	width: 48px;
+}
+.review__name {
 }
 
 /* todo______________________________FOOTER______________________________ */
