@@ -890,7 +890,7 @@ animation: flickering 2s linear 0s infinite;
 .impact__blop {
 	position: absolute;
 	top: -50px;
-	right: -70px;
+	right: -75px;
 }
 
 .impact__title-box {
@@ -913,12 +913,19 @@ animation: flickering 2s linear 0s infinite;
 }
 
 .impact__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	justify-content: space-between;
 }
+
 .impact__item {
 }
+
 .itm {
 	display: flex;
 	column-gap: 11px;
+	align-items: center;
 }
 
 .itm__img {
@@ -929,8 +936,15 @@ height: 76px;
 .itm__column {
 }
 .itm__count {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin-bottom: 3px;
 }
 .itm__text {
+	font-weight: 700;
+	color: #5D62B5;
 }
 
 /* todo______________________________FOOTER______________________________ */
