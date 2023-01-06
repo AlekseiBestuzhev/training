@@ -972,31 +972,37 @@ height: 76px;
 
 .footer__general {
 }
+
 .general {
 	padding: 100px 0;
 }
+
 .general__container {
 }
+
 .general__media {
 }
+
 .media {
 }
+
 .media__logo {
 	max-width: 174px;
 	margin-bottom: 23px;
 }
-.image {
-}
+
 .general__text {
 	max-width: 235px;
 	font-size: 14px;
 	line-height: 22px;
 	margin-bottom: 33px;
 }
+
 .media__icons {
 	display: flex;
 	column-gap: 18px;
 }
+
 .media__link {
 	width: 24px;
 	height: 24px;
