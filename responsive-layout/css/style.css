@@ -1295,6 +1295,9 @@ height: 76px;
 	.block-maa__circles {
 		display: none;
 	}
+	.main__gallery{
+		margin-bottom: 50px;
+	}
 	.gallery__body {
 		margin: 0 -15px;
 		border-radius: 0px;
