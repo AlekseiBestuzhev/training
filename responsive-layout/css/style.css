@@ -979,11 +979,15 @@ height: 76px;
 
 .general__container {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 50px;
 	justify-content: space-between;
 }
 
-.general__media {
+.general__media,
+.general__links,
+.general__contacts {
+	min-width: 165px;
 }
 
 .media {
@@ -1054,22 +1058,28 @@ height: 76px;
 }
 
 .contacts {
+	font-size: 14px;
 }
+
 .contacts__header {
 }
+
 .contacts__column {
 	display: flex;
 	flex-direction: column;
 	row-gap: 16px;
 }
+
 .contacts__item {
 	display: flex;
 	column-gap: 18px;
 }
+
 .contacts__icon {
 	width: 18px;
 	height: 18px;
 }
+
 .contacts__text {
 	font-size: 14px;
 	line-height: 20px;
