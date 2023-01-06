@@ -973,6 +973,7 @@ height: 76px;
 .footer__general {
 }
 .general {
+	padding: 100px 0;
 }
 .general__container {
 }
@@ -981,21 +982,27 @@ height: 76px;
 .media {
 }
 .media__logo {
-	width: 235px;
+	max-width: 174px;
+	margin-bottom: 23px;
 }
 .image {
 }
 .general__text {
+	max-width: 235px;
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 33px;
 }
 .media__icons {
 	display: flex;
+	column-gap: 18px;
 }
 .media__link {
 	width: 24px;
 	height: 24px;
 }
 
-.media__link img {
+.media__link img:first-child {
 	width: auto;
 	height: 100%;
 }
