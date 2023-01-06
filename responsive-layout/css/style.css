@@ -970,6 +970,36 @@ height: 76px;
 
 /* todo______________________________FOOTER______________________________ */
 
+.footer__general {
+}
+.general {
+}
+.general__container {
+}
+.general__media {
+}
+.media {
+}
+.media__logo {
+	width: 235px;
+}
+.image {
+}
+.general__text {
+}
+.media__icons {
+	display: flex;
+}
+.media__link {
+	width: 24px;
+	height: 24px;
+}
+
+.media__link img {
+	width: auto;
+	height: 100%;
+}
+
 .copyrights {
 	background-color: #5D62B5;
 	padding: 21px 0;
