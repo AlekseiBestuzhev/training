@@ -1022,11 +1022,13 @@ height: 76px;
 .links {
 	font-size: 14px;
 	line-height: 22px;
-	font-weight: 700;
 }
 
-.links__header {
+.links__header,
+.contacts__header {
+	text-transform: uppercase;
 	margin-bottom: 28px;
+	font-weight: 700;
 }
 
 .links__columns {
@@ -1041,11 +1043,31 @@ height: 76px;
 .links__right-column {
 	display: flex;
 	flex-direction: column;
+	row-gap: 11px;
 }
 
 .links__link {
-	text-decoration: none;
 	color: #4B4B4B;
+	font-weight: 700;
+}
+
+.contacts {
+}
+.contacts__header {
+}
+.contacts__column {
+}
+.contacts__item {
+	display: flex;
+	column-gap: 18px;
+}
+.contacts__icon {
+	width: 18px;
+	height: 18px;
+}
+.contacts__text {
+	font-size: 14px;
+	line-height: 20px;
 }
 
 .copyrights {
