@@ -1020,6 +1020,7 @@ height: 76px;
 }
 
 .links {
+	flex: 0 1 250px;
 	font-size: 14px;
 	line-height: 22px;
 }
@@ -1032,11 +1033,12 @@ height: 76px;
 }
 
 .links__columns {
-	max-width: 456px;
 	display: flex;
 	flex-wrap: wrap;
-	column-gap: 130px;
+	column-gap: 30px;
+	justify-content: space-between;
 	row-gap: 12px;
+	max-width: 250px;
 }
 
 .links__left-column,
